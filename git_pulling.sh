@@ -11,7 +11,7 @@ git commit -m "new changes"
 
 git push origin "$BRANCH"
 
-if [ $? -eq 0]; then 
+if [ $? -eq 0 ] ; then 
 echo "Success"
 else 
 echo "Error"
