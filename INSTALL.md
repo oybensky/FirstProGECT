@@ -18,3 +18,5 @@ cd to-your-repository
 git clone the repository of chosen theme. For example, git clone https://github.com/mmistakes/minimal-mistakes.git
 cd minimal-mistakes
 bundle install
+bundle exec jekyll build
+bundle exec jekyll serve
